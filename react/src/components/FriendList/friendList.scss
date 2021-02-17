@@ -1,0 +1,50 @@
+.creatorList{
+  position: relative;
+
+&_buttons{
+
+  text-align: left;
+  padding: 2rem;
+
+
+}
+
+&_select{
+
+  width: 12rem;
+  position: absolute;
+  right: 0;
+  top: 4.5rem;
+}
+
+&_cards
+ {
+
+  text-align: center;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+padding: 1rem;
+margin: 1rem;
+  
+ }
+
+&_list{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+
+
+}
+
+.wishCard {
+
+padding: 1rem;
+
+
+}
+

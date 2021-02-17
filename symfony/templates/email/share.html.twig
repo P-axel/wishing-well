@@ -1,0 +1,39 @@
+{% apply inline_css(source('@css/email.css', '@fonts/Roboto-Regular.ttf')) %}
+    <body>
+        <div class="logo" ><img src="{{ email.image('@images/blackLogo.png') }}"></div>
+            <div class="background">
+                <div class ="main">
+                    <h1>Bonjour!</h1>
+                    <p>
+                        <strong>{{ user.firstName }} {{ user.lastName }}</strong> veut vous partager sa liste de voeux "{{ wishlist.name }}" pour un évènement.qui aura lieu le <strong>{{ wishlist.eventDate|date('d/m/Y') }}</strong> 
+                    </p>
+                    <p>
+                        Pour pouvoir y accéder, veuillez suivre les étapes suivantes :
+                    </p>
+                    <ul>
+                        <li>
+                            <h2>Etape 1</h2>
+                            <p>Rendez-vous sur le site le site <a href="">Wishing Well</a> et connectez-vous. Si vous n'avez pas encore de compte, vous pouvez en créer un.</p>
+                        </li>
+                        <li>
+                            <h2>Etape 2</h2>
+                            <p>Rendez-vous au lien suivant pour visualiser la liste de voeux de <strong>{{ user.firstName }} {{ user.lastName }}</strong> : <a href="{{ link }}">{{ link }}</a></p>
+                        </li>
+                        <li>
+                            <h2>Etape 3</h2>
+                            <p>Vous pouvez cliquer sur le bouton "Suivre la liste" pour la retrouver plus tard plus rapidement dans votre tableau de bord.</p>
+                        </li>
+                        <li>
+                            <h2>Etape 4</h2>
+                            <p>Vous pouvez indiquer que vous vous occupez d'acheter un cadeau pour éviter que quelqu'un d'autre ne l'achète en double. <strong>{{ user.firstName }} {{ user.lastName }}</strong> ne sera pas averti, cela restera une surpise.</p>
+                        </li>
+                        <li>
+                            <h2>Etape 5</h2>
+                            <p>Vous pouvez même ajouter une idée de suprise afin d'inspirer les autres personnes qui suivent la liste. Encore une fois, <strong>{{ user.firstName }} {{ user.lastName }}</strong> n'en saura rien !</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="logo footer"></div>
+    </body>
+{% endapply %}

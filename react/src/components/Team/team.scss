@@ -1,0 +1,105 @@
+@import "../App/_variables.scss";
+
+h2 {
+  padding-top: 2rem;
+}
+
+.team {
+  text-shadow: black 0px 0px 2px;
+  margin: 0 15vw;
+  padding-bottom: 4rem;
+
+  .cards {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 18rem;
+    text-align: left;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border: solid 1px $logoBlack;
+    background-color: $logoBlack;
+    color: $mainColor;
+    transition: 0.15s;
+
+
+    .btn {
+      color: white;
+
+      &:hover {
+        color: $mainColor;
+      }
+    }
+
+    .card-title {
+      font-weight: bold;
+      color: white;
+      text-shadow: white 0px 0px 3px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-tag {
+      line-height: 20px;
+      font-size: 15px;
+      font-weight: normal;
+      padding: 2px 5px;
+      border-radius: 20%;
+      text-shadow: none;
+    }
+
+    .tag-front {
+      background-color: rgb(255, 87, 87);
+    }
+
+    .tag-back {
+      background-color: rgb(67, 161, 133);
+    }
+
+    .card-role {
+      text-shadow: $blue 0px 0px 2px;
+      font-weight: bold;
+      color: $blue;
+    }
+
+    .card-link {
+      text-align: center;
+    }
+
+    &:hover {
+      background-color: #fff5d4;
+      border: 2px solid $logoBlack;
+      border-radius: 15px;
+      padding: calc(0.3rem-2px);
+      color: $logoBlack;
+      margin-top:0;
+      margin-bottom: 0.6rem;
+      box-shadow: 10px 10px 10px rgb(75, 75, 75);
+
+      .card-title {
+        text-shadow: black 0px 0px 3px;
+      }
+
+      .card-text {
+        text-shadow: black 0 0 2px;
+      }
+
+      .card-role {
+        text-shadow: $blue 0px 0px 2px;
+        color: $blue;
+      }
+
+    }
+
+    .card-text {
+      text-shadow: $mainColor 0 0 1px;
+    }
+  }
+}
+

@@ -1,0 +1,187 @@
+@import "../App/_variables.scss";
+
+.creatorList{
+
+    text-shadow: rgba(0, 0, 0, 0.466) 0px 0px 2px;
+    padding: 1rem 0.5rem 4rem 0.5rem;
+
+  &_infos-creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    &_image {
+      width: 50px;
+      height: 50px;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(0,0,0,.5);
+      border: solid 2px $logoBlack;
+    }
+
+    &_name {
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+    }
+  }
+
+  &_title {
+    font-weight: bold;
+  }
+
+  &_date {
+    font-size: 1.4rem;
+    background-color: $logoBlack;
+    color: $blue;
+    max-width: fit-content;
+    margin: 1rem auto;
+    padding: 0.3rem 1.5rem;
+    border-radius: 1rem;
+  }
+
+  &_button{
+    // text-align: right;
+    padding: 1rem;
+    margin: auto;
+
+    &_desktop {
+      display: none;
+    }
+
+    &_delete {
+      background-color: #ff00009c !important;
+    }
+
+  }
+
+
+  &_cards {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+    &_gift {
+        margin: 1rem 0.5rem;
+        position: relative;
+        
+        &_idea {
+          padding: 0.3rem 1rem;
+          background-color: #efe212fc;
+          border-radius: 1.7rem;
+        }
+
+        &_image {
+          width: 150px;
+          height: 150px;
+          background-size: cover;
+          background-position: center;
+          margin: auto;
+          margin-top: 0.5rem;;
+        }
+        
+        &_body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
+        &_heart {
+          color: rgb(133, 133, 133);
+          font-size: 3rem;
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0 0.5rem;
+          display: none; // A enlever quand on activera la fonctionalité du coeur
+        }
+
+        &_heart:hover {
+          text-decoration: none;
+          color: rgb(133, 133, 133);
+        }
+
+        &_title {
+          font-weight: bold !important;
+        }
+
+        &_buttons {
+
+          &_buyer:hover {
+            background-color: #343A40 !important;
+            border-color:  #343A40 !important;
+            cursor: default !important;
+          }
+        }
+
+        &.important .creatorList_cards_gift {
+
+          &_heart {
+            color: red;
+            color: $mainColor;
+            display: inline-block; // A enlever quand on activera la fonctionalité du coeur
+          }
+        }
+
+        &.bought {
+          background-color: lightgray;
+        }
+
+    }
+  }
+
+  &_no-gifts {
+    border: double 3px $logoBlack ;
+    padding: 0.5rem 1rem;
+    max-width: fit-content;
+    margin: 1rem auto;
+  }
+}
+
+.cardImg {
+  // width: 70%;
+  width: auto;
+  height: 200px;
+  padding-top: 0.5rem;
+  display: none;
+}
+
+.creatorList_cards_gift.important {
+  // border: double 8px red;
+  border: 5px black solid;
+}
+
+@media (min-width: 400px) {
+  .creatorList{
+    padding: 1rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .creatorList{
+    padding: 1rem 1.5rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .creatorList{
+    padding: 1rem 2rem;
+    padding-bottom: 4rem;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .creatorList_button {
+    display: none;
+  }
+
+  .creatorList_button_desktop {
+    display: inline-block;
+    padding: 1rem;
+  }
+}

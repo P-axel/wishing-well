@@ -1,0 +1,49 @@
+.Connexion {
+  margin: .3em;
+  position: relative;
+}
+.Connexion-input {
+  width: 100%;
+  padding: .7em;
+  font-size: 1em;
+  border: solid, black, 1 px;
+  border-radius: .3em;
+  height: 2.5em;
+}
+.Connexion-input:focus {
+  border-color: #f17f42;
+}
+.Connexion-input:focus + .Connexion-label {
+  color: #f17f42;
+}
+
+.Connexion--has-content .Connexion-label {
+  display: block;
+}
+
+.Connexion--has-content .Connexion-input {
+  padding: 1.4em .7em .4em;
+}
+
+.Connexion-label {
+  display: none;
+  position: absolute;
+  top: .2rem;
+  left: .7rem;
+  font-weight: 700;
+  color: #999;
+  font-size: .7em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  animation: labelSlideUpAndShow .3s;
+}
+@keyframes labelSlideUpAndShow{
+  0% {
+    transform: translateY(1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0em);
+    opacity: 1;
+  }
+}

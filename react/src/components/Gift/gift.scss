@@ -1,0 +1,187 @@
+@import "../App/_variables.scss";
+
+.gift {
+  text-align: left;
+  width: 90%;
+  margin: 1rem auto;
+  margin-bottom: 4rem;
+
+
+  @media only screen and (min-width: 950px) {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  &__image {
+    width: 88vw;
+    border: 2px solid $logoBlack;
+    border-radius: 5px;
+
+    @media only screen and (min-width: 950px) {
+      width: 400px;
+      display: none;
+    }
+  }
+
+  &__image-div {
+    width: 400px;
+    border: 2px solid $logoBlack;
+    border-radius: 5px;
+    display: none;
+    background-position: center;
+    background-size: cover;
+
+    @media only screen and (min-width: 950px) {
+      display: block;
+    }
+  }
+
+  &__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+
+    @media only screen and (min-width: 950px) {
+      width: calc(100%-416px);
+      margin: 0;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      height: 400px;
+    }
+  }
+
+  &__comments {
+    margin: 1rem;
+    font-weight: bolder;
+    background-color: #bbb;
+    padding: 0.5rem;
+    border: 2px dashed $logoBlack;
+
+    @media only screen and (min-width: 950px) {
+      margin: 1rem 0 3rem 1rem;
+    }
+    
+    &__comment {
+      margin-bottom: 0.3rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: flex-start;
+
+
+      &__icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 0.5rem;
+      }
+
+      .heart {
+        font-size: 1.5rem;
+        margin-right: 10px;
+      }
+
+      .essential {
+        color: red;
+      }
+
+      .not-essential {
+        color: rgba(0, 0, 0, 0.356);
+      }
+      
+    }
+  }
+
+  &__details {
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 1rem;
+    margin:1rem 0;
+    border-left: 2px solid $logoBlack ;
+    transition: 0.1s;
+
+    @media only screen and (min-width: 950px) {
+      margin: 0;
+      margin-top: 2rem;
+      width: 70%;
+    }
+
+    &__link {
+      margin-bottom: 1rem;
+    }
+
+    &__title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      padding-top: 0;
+    }
+  }
+
+  &__buttons {
+
+    margin-bottom: 1rem;
+
+    @media only screen and (min-width: 950px) {
+      margin: 0;
+      margin-left: 1rem;
+    }
+
+
+    &--centered {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center ;
+      margin-bottom: 1rem;
+    }
+
+    &__button--lock {
+      padding: 0.5rem 2.5rem;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      background-color: #32926B;
+      margin: 0.5rem auto;
+
+      @media only screen and (min-width: 950px) {
+      }
+    }
+
+    &__button--unlock {
+      padding: 0.5rem 2.5rem;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      background-color: #E17502;
+      margin: 0.5rem auto;
+
+      @media only screen and (min-width: 950px) {
+      }
+    }
+
+    &__button--edit {
+      padding: 0.5rem 0.8rem;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      background-color: #E17502;
+      display: block;
+      margin: 0.5rem auto;
+
+      @media only screen and (min-width: 950px) {
+        position: relative;
+        top: 28px;
+      }
+    }
+
+  }
+}
+
+.return-btn {
+  margin: 2rem;
+  margin-top: 3rem;
+  display: block;
+}

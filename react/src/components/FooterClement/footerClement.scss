@@ -1,0 +1,42 @@
+.footer {
+  margin: 0 auto;
+
+  @media only screen and (min-width: 950px) {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (min-width: 950px) {
+      justify-content: start;
+    }
+    
+
+    &__item {
+      width: 20px;
+      margin-right: 0.5rem;
+    };
+  };
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+
+    @media only screen and (min-width: 950px) {
+      margin-top: 0rem;
+      justify-content: start;
+    }
+    
+
+    &__item {
+      margin-left: 0.5rem;
+    };
+  };
+}
+
+

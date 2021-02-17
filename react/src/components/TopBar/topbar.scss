@@ -1,0 +1,107 @@
+@import "../App/_variables.scss";
+
+.brandName {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex !important;
+  align-items: center;
+}
+
+.avatar {
+
+  &_image {
+    width:60px;
+    border-radius: 50%;
+    border: 2px $mainColor solid;
+    display: none;
+  }
+
+  &_div {
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px $mainColor solid;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.panel-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.navbar-custom {
+  background-color: $logoBlack;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text  { 
+    color: $mainColor !important; 
+} 
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgb(228,187,110)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: $mainColor !important;
+}
+
+// .navDur {
+//   background-color: black;
+//   border: 1px pink greenyellow;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   color: rgb(228,187,110);
+  
+
+//   .miniLogo {
+//     border-radius: 50%;
+//     margin-left: 1rem;
+//   }
+
+//   .brandItems{
+//     display: flex;
+//     align-items: center;
+//   }
+
+//   .navRight{
+//     font-family: Roboto, Helvetica Neue, sans-serif;
+
+//     .menu{
+//       display: flex;
+          
+//       .menu-Item{
+//         display:block;
+//         padding: 1rem;
+//         text-decoration: none;
+//         cursor: pointer;
+
+//         .menu-Item:hover{
+//           background-color: rgb(228,187,110);
+//           color: black;
+//         }
+
+//       }
+
+//     }
+//   }
+
+//   .menu-Item:hover{
+//     background-color: rgb(228,187,110);
+//     color: black;
+//   }
+
+  
+//   .brandName{
+//     margin:0.3rem;
+//     font-size: 1.25rem;
+//     color: rgb(228,187,110);
+//   }
+// }
+

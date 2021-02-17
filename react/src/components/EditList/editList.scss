@@ -1,0 +1,52 @@
+.editList {
+  height: calc(100vh - 140px);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 4rem;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+  }
+
+  &__form {
+    &__label {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      
+      &__input {
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+        padding: 0.5rem;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      margin-left: auto;
+
+      &--edit {
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: #dc3545;
+        margin-right: 0.5rem;
+      }
+
+      &--cancel {
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: grey;
+      }    
+    }
+  }
+}

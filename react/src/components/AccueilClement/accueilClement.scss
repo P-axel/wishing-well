@@ -1,0 +1,118 @@
+.accueil {
+
+  &__header {
+    background-image: url(https://www.listy.fr/assets/home/bg_home_xxl-eae691e70a0268f69c0dfc871de0521f3c79fce19c56f784a34e99564b044571.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 30px);
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+    @media only screen and (min-width: 950px) {
+      height: calc(100vh - 50px);
+    }
+
+    &__content {
+      margin: auto;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0);
+      padding: 1rem 0;
+      color: white;
+
+      &__text {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      &__buttons__button {
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        color: white;
+        border: none;
+        background-color: #dc3545;
+      }
+    }
+  }
+
+  &__section1, &__section3 {
+    max-width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+
+    @media only screen and (min-width: 950px) {
+      max-width: 800px;
+      display: flex;
+      text-align: left;
+    }
+
+    &__text {
+      margin-top: 1rem;
+
+      @media only screen and (min-width: 950px) {
+        margin: auto;
+        margin-left: 50px;
+        order: 2;
+      }
+    }
+
+    &__image {
+      @media only screen and (min-width: 950px) {
+        order: 1;
+      }
+    }
+  }
+
+  &__section2 {
+    max-width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+
+    @media only screen and (min-width: 950px) {
+      max-width: 800px;
+      display: flex;
+      text-align: left;
+    }
+
+    &__text {
+      margin-top: 1rem;
+
+      @media only screen and (min-width: 950px) {
+        margin: auto;
+        margin-right: 50px;
+      }
+    }
+  }
+
+  &__sectionbuttons {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+
+    &__text {
+    
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: center;
+
+      &__button {
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        color: white;
+        border: none;
+        background-color: #dc3545;
+      }
+
+      &__button:active {
+        background-color: #f0f;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import "../App/_variables.scss";
+
+main {
+  padding-bottom: 3rem;
+}
+
+.features {
+background-color: rgb(228,187,110);
+
+  &_feature{
+    padding: 1.5rem;
+  }
+
+  &_title{
+
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0.5rem;
+  color: black;
+
+  }
+
+  &_description{
+    color: black;
+  }
+
+  &_announcer{
+    background-color: $logoBlack;
+    color: rgb(228,187,110);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    & h2{
+      font-size: xx-large;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+p{
+  line-height: normal;
+}
+
+.description{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: rgb(228,187,110);
+
+  &_title{
+    font-size: xx-large;
+    padding: 1rem;
+    color: $logoBlack;
+    font-weight: bold;
+  }
+
+  &_text{
+    color: $logoBlack;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .description{
+
+    &_text {
+      max-width: 900px;
+      margin: 16px auto;
+    }
+  }
+}

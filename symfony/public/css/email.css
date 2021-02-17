@@ -1,0 +1,42 @@
+body {
+    padding: 0 10%;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(228,187,110); */
+    color: #505050;
+    /* border: solid 50px #131313; */
+}
+
+.background {
+    background-color: #131313;
+}
+
+.main {
+    border: solid 3px #131313;
+    padding: 2rem;
+    background-color: rgb(228,187,110);
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+.logo {
+    text-align: center;
+    background-color: #131313;
+}
+
+.logo img {
+    display: inline-block;
+    width: 200px;
+}
+
+li h2 {
+    font-size: 1.2rem;
+}
+ul {
+    list-style: square;
+}
+.footer {
+    height: 100px;
+}

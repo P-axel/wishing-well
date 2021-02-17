@@ -1,0 +1,42 @@
+@import "../App/_variables.scss";
+
+.form-message {
+  color: $logoBlack;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.login-form {
+  text-align: center;
+  width: 50%;
+  max-width: 25rem;
+  padding-bottom: 3rem;
+}
+
+
+.login-form-element {
+  text-align: center;
+
+}
+
+.login-form-message {
+  text-align: right;
+  margin: .3em 1em;
+}
+
+.login-form-logged {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login-form-button {
+  font-weight: 700;
+  font-size: 1em;
+  color: #fff;
+  background-color: #f17f42;
+  border-radius: .3em;
+  border: 0;
+  padding: .7em;
+  height: 2.5em;
+}

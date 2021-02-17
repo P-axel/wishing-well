@@ -1,0 +1,79 @@
+# https://github.com/O-clock-Alumni/fiches-recap/blob/master/symfony/themes/fixtures-advanced-alice.md
+# https://github.com/fzaninotto/Faker
+
+App\Entity\User:
+    user_1:
+        firstname: '<firstName()>'
+        lastname: '<lastName()>'
+        email: 'user1@wishing.well'
+        slug (unique): '<slug()>'
+        password: '\$argon2id\$v=19\$m=65536,t=4,p=1\$m46/voMLL8qJy9zdOsLf8Q\$SYOjShFLsfYkjwyCas3RW06MQgAMORNyymQV6Hu3DGk'
+        birthday: '<dateTimeBetween("-60 years", "-18 years")>'
+        lastConnection: '<dateTimeBetween("-20 days", "now")>'
+        followedWishlists: '<numberBetween(1, 4)>x @wishlist_*'
+        created_at: '<dateTimeBetween("-20 days", "now")>'
+    user_2:
+        firstname: '<firstName()>'
+        lastname: '<lastName()>'
+        email: 'milo@k.s'
+        slug (unique): '<slug()>'
+        password: '\$argon2id\$v=19\$m=65536,t=4,p=1\$m46/voMLL8qJy9zdOsLf8Q\$SYOjShFLsfYkjwyCas3RW06MQgAMORNyymQV6Hu3DGk'
+        birthday: '<dateTimeBetween("-60 years", "-18 years")>'
+        lastConnection: '<dateTimeBetween("-20 days", "now")>'
+        followedWishlists: '<numberBetween(1, 4)>x @wishlist_*'
+        created_at: '<dateTimeBetween("-20 days", "now")>'
+    user_3:
+        firstname: '<firstName()>'
+        lastname: '<lastName()>'
+        email: 'user3@google.com'
+        slug (unique): '<slug()>'
+        password: '\$argon2id\$v=19\$m=65536,t=4,p=1\$m46/voMLL8qJy9zdOsLf8Q\$SYOjShFLsfYkjwyCas3RW06MQgAMORNyymQV6Hu3DGk'
+        birthday: '<dateTimeBetween("-60 years", "-18 years")>'
+        lastConnection: '<dateTimeBetween("-20 days", "now")>'
+        followedWishlists: '<numberBetween(1, 4)>x @wishlist_*'
+        created_at: '<dateTimeBetween("-20 days", "now")>'
+    user_4:
+        firstname: '<firstName()>'
+        lastname: '<lastName()>'
+        email: 'user4@k.s'
+        slug (unique): '<slug()>'
+        password: '\$argon2id\$v=19\$m=65536,t=4,p=1\$m46/voMLL8qJy9zdOsLf8Q\$SYOjShFLsfYkjwyCas3RW06MQgAMORNyymQV6Hu3DGk'
+        birthday: '<dateTimeBetween("-60 years", "-18 years")>'
+        lastConnection: '<dateTimeBetween("-20 days", "now")>'
+        followedWishlists: '<numberBetween(1, 4)>x @wishlist_*'
+        created_at: '<dateTimeBetween("-20 days", "now")>'
+
+App\Entity\Wishlist:
+    wishlist_{1..10}:
+      name: '<catchPhrase()>'
+      slug (unique): '<slug()>'
+      eventDate: '<dateTimeBetween("now", "+10 months")>'
+      description: '<paragraph()>'
+      creator: '@user_*'
+      active: 'true'
+      created_at: '<dateTimeBetween("-20 days", "now")>'
+
+App\Entity\Gift:
+    gift_{1..50}:
+      buyer: '@user_*'
+      creator: '@user_*'
+      wishlist: '@wishlist_*'
+      type: '<numberBetween(1, 2)>'
+      name: '<word()>'
+      slug (unique): '<slug()>'
+      status: '1'
+      details: '<paragraph()>'
+      created_at: '<dateTimeBetween("-20 days", "now")>'
+      isHighlighted: '0'
+      isArchived: '0'
+    gift_{51..200}:
+      creator: '@user_*'
+      wishlist: '@wishlist_*'
+      type: '<numberBetween(1, 2)>'
+      name: '<word()>'
+      slug (unique): '<slug()>'
+      status: '0'
+      details: '<paragraph()>'
+      created_at: '<dateTimeBetween("-20 days", "now")>'
+      isHighlighted: '0'
+      isArchived: '0'
