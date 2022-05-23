@@ -1,7 +1,7 @@
 {
     "type": "project",
     "license": "proprietary",
-    "require": {
+    "require": { 
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
@@ -61,7 +61,10 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "autoload": {
         "psr-4": {
@@ -100,7 +103,8 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "5.1.*"
+            "require": "5.1.*",
+            "docker": false
         }
     }
 }

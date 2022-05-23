@@ -1,0 +1,659 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 23 18:43:00 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+SSH_AGENT_LAUNCHER = openssh
+# makefile (from 'Makefile', line 4)
+here := 
+# makefile (from 'Makefile', line 4)
+configure := 
+# makefile (from 'Makefile', line 4)
+environments, := 
+# makefile (from 'Makefile', line 4)
+needed := 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ae5c4814-41cb-43fa-83d4-3c68e9a4b6f2.sock
+# makefile (from 'Makefile', line 4)
+SECRETS := 
+# environment
+VSCODE_CWD = /home/p-axel
+# makefile (from 'Makefile', line 4)
+.env.$APP_ENV.local := 
+# makefile (from 'Makefile', line 4)
+.env.local := 
+# makefile (from 'Makefile', line 4)
+"composer := 
+# makefile (from 'Makefile', line 4)
+for := 
+# makefile (from 'Makefile', line 4)
+precedence := 
+# makefile (from 'Makefile', line 4)
+local := 
+# makefile (from 'Makefile', line 4)
+values := 
+# environment
+NVM_DIR = /home/p-axel/.nvm
+# environment
+GDM_LANG = fr_FR.UTF-8
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 4)
+### := 
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 4)
+NOR := 
+# makefile (from 'Makefile', line 4)
+In := 
+# makefile (from 'Makefile', line 4)
+SHOULD := 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 4)
+###> := 
+# environment
+PWD = /var/www/react/wishing-well/symfony
+# makefile (from 'Makefile', line 4)
+lexik/jwt-authentication-bundle := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 4)
+PRODUCTION := 
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/p-axel/.nvm/versions/node/v18.0.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/p-axel/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# makefile (from 'Makefile', line 4)
+files. := 
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.HB6MM1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 4)
+are := 
+# makefile (from 'Makefile', line 4)
+nelmio/cors-bundle := 
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from '.env', line 50)
+FRONT_URL = "http://54.208.46.110/wishing-well"
+# makefile (from 'Makefile', line 4)
+your := 
+# makefile (from 'Makefile', line 4)
+in := 
+# makefile (from '.env', line 37)
+JWT_SECRET_KEY = %kernel.project_dir%/config/jwt/private.pem
+# makefile
+CURDIR := /var/www/react/wishing-well/symfony
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 4)
+Gmail := 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 4)
+MUST := 
+# makefile (from 'Makefile', line 4)
+exist, := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '.env', line 24)
+MAILER_DSN = gmail+smtp://username:password@default
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 4)
+# := 
+# environment
+NVM_BIN = /home/p-axel/.nvm/versions/node/v18.0.0/bin
+# makefile (from 'Makefile', line 4)
+used := 
+# makefile (from 'Makefile', line 4)
+COMMITTED := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from '.env', line 1)
+MAKEFILE_LIST := Makefile .env
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 4)
+symfony/mailer := 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2057
+# makefile (from 'Makefile', line 4)
+environment := 
+# makefile (from 'Makefile', line 4)
+NOT := 
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 4)
+.env.$APP_ENV := 
+# makefile (from 'Makefile', line 4)
+symfony/framework-bundle := 
+# makefile (from 'Makefile', line 4)
+they := 
+# environment
+_WSREP_START_POSITION = 
+# environment
+SESSION_MANAGER = local/shadow:@/tmp/.ICE-unix/1016,unix/shadow:/tmp/.ICE-unix/1016
+# makefile (from 'Makefile', line 4)
+symfony/flex := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 4)
+https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url := 
+# makefile (from 'Makefile', line 4)
+use := 
+# makefile (from 'Makefile', line 4)
+#TRUSTED_HOSTS := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 4)
+by := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 4)
+latter := 
+# makefile (from '.env', line 18)
+APP_SECRET = d72c2240bb1febf3d3f25347c67161a6
+# makefile (from 'Makefile', line 4)
+production := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"25fe6a3290ec415596628d4afc87a88c.fr","_translationsConfigFile":"/home/p-axel/.config/Code/clp/25fe6a3290ec415596628d4afc87a88c.fr/tcf.json","_cacheRoot":"/home/p-axel/.config/Code/clp/25fe6a3290ec415596628d4afc87a88c.fr","_resolvedLanguagePackCoreLocation":"/home/p-axel/.config/Code/clp/25fe6a3290ec415596628d4afc87a88c.fr/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/home/p-axel/.config/Code/clp/25fe6a3290ec415596628d4afc87a88c.fr/corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 4)
+taking := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from 'Makefile', line 4)
+dump-env := 
+# makefile (from 'Makefile', line 4)
+https://symfony.com/doc/current/best_practices.html#use-environment-variables-for-infrastructure-configuration := 
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 4)
+* := 
+# makefile (from 'Makefile', line 4)
+ANY := 
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# makefile (from 'Makefile', line 4)
+following := 
+# makefile (from 'Makefile', line 4)
+over := 
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 4)
+file := 
+# makefile (from 'Makefile', line 4)
+environment-specific := 
+# makefile (from '.env', line 17)
+APP_ENV = dev
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 4)
+uncommitted := 
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# makefile (from 'Makefile', line 4)
+compile := 
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/p-axel/.nvm/versions/node/v18.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 4)
+server := 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 4)
+all := 
+# makefile (from 'Makefile', line 4)
+only. := 
+# makefile (from 'Makefile', line 4)
+default := 
+# makefile (from 'Makefile', line 4)
+prod" := 
+# makefile (from 'Makefile', line 4)
+IN := 
+# makefile (from 'Makefile', line 4)
+either := 
+# environment
+INVOCATION_ID = e28ebaed70ef4d69993922bd7ced673a
+# makefile (from 'Makefile', line 4)
+on := 
+# makefile (from 'Makefile', line 4)
+###< := 
+# makefile (from 'Makefile', line 4)
+#DATABASE_URL := 
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 4)
+or := 
+# environment
+USERNAME = p-axel
+# makefile (from 'Makefile', line 4)
+with := 
+# environment
+GNOME_SETUP_DISPLAY = :1
+# makefile (from 'Makefile', line 4)
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+DEFINE := 
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 4)
+overrides := 
+# makefile (from 'Makefile', line 4)
+variables := 
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 4)
+OTHER := 
+# environment
+LOGNAME = p-axel
+# makefile (from 'Makefile', line 4)
+version, := 
+# makefile (from 'Makefile', line 4)
+DO := 
+# makefile (from 'Makefile', line 4)
+.env := 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'Makefile', line 4)
+IMPORTANT: := 
+# makefile (from 'Makefile', line 8)
+.DEFAULT_GOAL := help
+# makefile (from '.env', line 43)
+CORS_ALLOW_ORIGIN = ^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$
+# makefile (from 'Makefile', line 4)
+config/packages/doctrine.yaml := 
+# makefile (from 'Makefile', line 4)
+symfony/google-mailer := 
+# environment
+DISPLAY = :0
+# environment
+USER = p-axel
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 4)
+Format := 
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 4)
+> := 
+# makefile (from 'Makefile', line 4)
+the := 
+# makefile (from 'Makefile', line 4)
+app := 
+# makefile (from 'Makefile', line 4)
+THIS := 
+# makefile (from 'Makefile', line 4)
+win := 
+# environment
+MANAGERPID = 824
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2057
+# makefile (from 'Makefile', line 4)
+be := 
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 4)
+You := 
+# makefile (from 'Makefile', line 4)
+production, := 
+# makefile (from 'Makefile', line 4)
+(requires := 
+# makefile (from 'Makefile', line 4)
+at := 
+# makefile (from '.env', line 39)
+JWT_PASSPHRASE = 0520fcb08c6efaf871a0557198d74251
+# environment
+NVM_CD_FLAGS = 
+# environment
+JOURNAL_STREAM = 8:19164
+# makefile (from 'Makefile', line 4)
+if := 
+# makefile (from 'Makefile', line 4)
+defaults := 
+# makefile (from 'Makefile', line 4)
+FILES. := 
+# makefile (from 'Makefile', line 4)
+to := 
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 4)
+doctrine/doctrine-bundle := 
+# makefile (from 'Makefile', line 4)
+FILE := 
+# environment
+HOME = /home/p-axel
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 4)
+files := 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-37149cf9-1.67.1-main.sock
+# makefile (from 'Makefile', line 4)
+it := 
+# makefile (from 'Makefile', line 4)
+Real := 
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 4)
+former: := 
+# makefile (from 'Makefile', line 4)
+contains := 
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 4)
+Run := 
+# makefile (from '.env', line 32)
+DATABASE_URL = "mysql://shadow:121214@127.0.0.1:5432/dgpk1106_wishingwell?serverVersion=13&charset=utf8""
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 4)
+committed := 
+# makefile (from 'Makefile', line 4)
+described := 
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'Makefile', line 4)
+development := 
+# makefile (from 'Makefile', line 4)
+#TRUSTED_PROXIES := 
+# makefile (from '.env', line 38)
+JWT_PUBLIC_KEY = %kernel.project_dir%/config/jwt/public.pem
+# environment
+GDMSESSION = gnome
+# makefile (from 'Makefile', line 4)
+loaded := 
+# variable set hash-table stats:
+# Load=213/1024=21%, Rehash=0, Collisions=68/430=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 1705731): 24 files, no impossibilities.
+
+# 24 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+kill:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.env:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 00:21:23.486319799
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-12 19:05:26.09114519
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	sudo rm -rf .env.local vendor node_modules var/cache/* var/log/* public/build/*
+
+reset:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+d-m-m:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+d-d-drop:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install-symfony: .env-symfony
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	composer install
+	sudo php bin/console d:d:d --if-exists --force
+	sudo php bin/console d:d:c
+	sudo php bin/console d:m:m --no-interaction
+	sudo php bin/console d:f:l --no-interaction
+	@echo '';\
+	echo '   \033[1;106m                                                                  \033[0m';\
+	echo '   \033[1;106m\033[1;30m   Wishing well project has been installed successfuly.   \033[1;30m/████\  \033[0m';\
+	echo '   \033[1;106m\033[1;30m   Try \033[1;37mhttp://localhost:8000\033[30m\033[1;106m now!                       \033[1;30m  _|__|_  \033[0m';\
+	echo '   \033[1;106m\033[1;30m                                                        \033[1;34m  ██████  \033[0m';\
+	echo '   \033[1;106m\033[1;30m   Your PHP server should have started right below  |     \033[1;34m██████  \033[0m';\
+	echo '   \033[1;106m\033[1;30m                                                    V             \033[0m';\
+	echo '';\
+	php -S 0.0.0.0:8000 -t public
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+d-f-l:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	@grep -E '(^[a-zA-Z_-]+:.*?##.*$$)|(^##)' ./Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[36m##/[36m/'
+	@echo ''
+	@echo '\033[02mIf you just cloned this repository, you should run\033[0m'"\033[01m\033[36m make install \033[0m\n"''
+
+php-server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	@echo '';\
+	echo '   \033[1;46m                                                 \033[0m';\
+	echo '   \033[30;46m\033[1;30m   PHP server started on \033[1;37mhttp://localhost:8000   \033[0m';\
+	echo '   \033[3;46m                                                 \033[0m';\
+	echo '';\
+	php -S 0.0.0.0:8000 -t public
+
+yarn-build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+c-c:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	@xfce4-terminal --command "php -S 0.0.0.0:8000 -t public"  \
+	#-e "bash -c 'make php-server; bash'" \
+
+
+.env-symfony:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 69):
+	@if [ -f .env.local ]; \
+	then\
+		echo '\033[0;32m Your symfony .env.local already exist.\033[0m';\
+	else\
+		echo '\033[0;33m Your symfony .env.local does not exist.\033[0m';\
+		touch .env.local;\
+		echo 'DATABASE_URL=mysql://explorateur:Ereul9Aeng@127.0.0.1:3306/wishingwell?serverVersion=mariadb-10.4.12' > .env.local;\
+		echo '\033[0;32m Your symfony .env.local copy from .env has been created\033[0m';\
+	fi
+
+d-s-v:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install-react:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	@echo 'No React yet.';\
+	
+
+d-d-c:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+yarn-build-watch:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install: install-react install-symfony
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: help install kill clean reset .env-symfony d-d-c d-d-drop d-m-m d-f-l d-s-v yarn-build yarn-build-watch c-c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=0/60=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 48 / storage = 433 B / avg = 9 B
+# current buf: size = 8162 B / used = 433 B / count = 48 / avg = 9 B
+
+# strcache performance: lookups = 76 / hit rate = 36%
+# hash-table stats:
+# Load=48/8192=1%, Rehash=0, Collisions=0/76=0%
+# Finished Make data base on Mon May 23 18:43:01 2022
+
+ 

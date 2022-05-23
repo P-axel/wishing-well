@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/var/www/react/wishing-well/symfony'
+ 
+grep -E '(^[a-zA-Z_-]+:.*?##.*$)|(^##)' ./Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $1, $2}' | sed -e 's/\[36m##/[36m/'
+echo ''
+echo '\033[02mIf you just cloned this repository, you should run\033[0m'"\033[01m\033[36m make install \033[0m\n"''
+make: Leaving directory '/var/www/react/wishing-well/symfony'
+ 
